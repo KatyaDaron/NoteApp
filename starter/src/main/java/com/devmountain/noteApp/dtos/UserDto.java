@@ -22,8 +22,8 @@ public class UserDto implements Serializable {
         if (user.getId() != null) {
             this.id = user.getId();
         }
-        if (user.getName() != null) {
-            this.username = user.getName();
+        if (user.getUsername() != null) {
+            this.username = user.getUsername();
         }
         if (user.getPassword() != null) {
             this.password = user.getPassword();

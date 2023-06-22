@@ -21,7 +21,7 @@ public class User {
     private Long id;
 
     @Column(unique = true)
-    private String name;
+    private String username;
 
     @Column
     private String password;
@@ -32,7 +32,7 @@ public class User {
 
     public User(UserDto userDto) {
         if (userDto.getUsername() != null) {
-            this.name = userDto.getUsername();
+            this.username = userDto.getUsername();
         }
         if (userDto.getPassword() != null) {
             this.password = userDto.getPassword();
