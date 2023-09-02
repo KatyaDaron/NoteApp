@@ -1,0 +1,45 @@
+body {
+  background-color: #f8f9fa;
+  padding-top: 20px;
+}
+
+#home-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#note-form-container {
+  margin-bottom: 20px;
+}
+
+#note-input {
+  resize: none;
+}
+
+#note-container {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 200px;
+}
+
+#note-container p {
+  margin-bottom: 10px;
+}
+
+.modal-dialog {
+  max-width: 400px;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+}
+
+#note-body {
+  resize: none;
+}
